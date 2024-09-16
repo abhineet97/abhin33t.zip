@@ -1,6 +1,6 @@
 self.addEventListener('install', function(event) {
   event.waitUntil(
-    caches.open('abhineet.tk').then((cache) => {
+    caches.open('abhin33t.zip').then((cache) => {
       return cache.addAll(['/', '/index.html']);
     })
   );
